@@ -1,0 +1,9 @@
+#+title: My Config Files
+
+* Dependencies
+1. =GNU stow=
+
+* Usage
+1. Clone this repo into =~/dotfiles/=
+1. =cd ~/dotfiles=
+1. =stow .=
