@@ -116,6 +116,9 @@ Xfce4-power-manager-settings)
 for i in ${settings[@]}; do
    bspc rule -a $i desktop='^8' state=floating follow=on focus=on; done
 
+## Always Tiling Apps
+bspc rule -a Emacs state=tiled
+
 ## Always Floating Apps
 declare -a floating=(alacritty-float Pcmanfm Thunar Onboard Yad 'Firefox:Places' \
 Viewnior feh Nm-connection-editor)

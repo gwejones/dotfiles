@@ -34,7 +34,7 @@ super + {m,n,r,s,w,x}
 
 # Launch Apps
 super + shift + {f,w,e}
-	{thunar,firefox,emacs}
+	{thunar,brave,emacs}
 
 # Terminal Apps
 ctrl + alt + {v,r,h}
